@@ -1,0 +1,7 @@
+This is a repo containing work-in-progress SMP initialization code for my hobby
+operating system, c4-os. It will be merged in there eventually, but this code
+will remain standalone so it can be reused for other things, maybe even by
+other people (including you, dear reader!).
+
+There's also a folder containing some code by Erich Boleyn (uruk.org) which was
+very useful as a reference.
