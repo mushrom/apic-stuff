@@ -5,3 +5,13 @@ other people (including you, dear reader!).
 
 There's also a folder containing some code by Erich Boleyn (uruk.org) which was
 very useful as a reference.
+
+Building
+========
+
+You'll need make, gcc and binutils on x86/amd64, and nasm.
+
+``make'' builds a kernel which should be able to work with any
+multiboot-compatible bootloader, including GRUB and syslinux, and qemu's
+-kernel option. If you have qemu installed, ``make test'' will run the kernel
+with the usual parameters.
